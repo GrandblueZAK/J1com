@@ -1,0 +1,290 @@
+.gong {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #F8F8F8;
+}
+
+header {
+  height: 83px;
+  background: #F8F8F8;
+}
+header .hed {
+  height: 83px;
+  box-sizing: border-box;
+  padding: 24px 0 20px;
+}
+header .hed h2 {
+  width: 201px;
+}
+header .hed h2 a {
+  display: block;
+  width: 201px;
+  height: 39px;
+  background: url(../img/reg/logo_reg.png) no-repeat left;
+  text-indent: -999em;
+}
+
+main {
+  height: 450px;
+}
+main .main {
+  height: 450px;
+  box-sizing: border-box;
+  border: 5px solid #F0F0F0;
+  background: white;
+}
+main .main .lg-left {
+  width: 612px;
+  height: 365px;
+  padding-top: 60px;
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+main .main .lg-right {
+  width: 378px;
+  height: 440px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-right: 70px;
+  position: relative;
+}
+main .main .lg-right .sys {
+  position: absolute;
+  width: 378px;
+  height: 440px;
+  background: white;
+  top: 0;
+  left: 0;
+  display: none;
+}
+main .main .lg-right .sys h2 {
+  font-size: 14px;
+  color: #474747;
+  line-height: 96px;
+  margin-bottom: 21px;
+}
+main .main .lg-right .sys img {
+  width: 215px;
+  height: 215px;
+  margin-left: 63px;
+}
+main .main .lg-right .sys p {
+  font-size: 12px;
+  color: #474747;
+  padding-left: 120px;
+}
+main .main .lg-right .sys p a {
+  color: #C74242;
+}
+main .main .lg-right .sys p a:hover {
+  text-decoration: underline;
+}
+main .main .lg-right .sys h3 {
+  font-size: 12px;
+  color: #474747;
+  padding-left: 131px;
+  line-height: 18px;
+}
+main .main .lg-right .a1 {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 22px;
+  background: url(../img/reg/log-a1.png) no-repeat center;
+  right: 73px;
+  top: 10px;
+  cursor: pointer;
+}
+main .main .lg-right .a2 {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/reg/codeicon.png) no-repeat center;
+  right: 18px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+main .main .lg-right .lg-r-1 {
+  font-size: 14px;
+  color: #333333;
+  height: 30px;
+}
+main .main .lg-right .lg-r-1 input {
+  margin-right: 9px;
+}
+main .main .lg-right .p1 {
+  font-size: 14px;
+  color: #474747;
+  height: 26px;
+}
+main .main .lg-right .p1 span {
+  float: right;
+  color: #CE002F;
+}
+main .main .lg-right .in-1 {
+  position: relative;
+}
+main .main .lg-right .in-1 input {
+  height: 37px;
+  width: 310px;
+  box-sizing: border-box;
+  border: 1px solid #CFCFCF;
+  padding-left: 36px;
+}
+main .main .lg-right .in-1 span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: block;
+  width: 21px;
+  height: 20px;
+  background: url(../img/reg/zc-ico.png) no-repeat 0 -79px;
+}
+main .main .lg-right .p2 {
+  font-size: 14px;
+  color: #474747;
+  height: 40px;
+  line-height: 40px;
+}
+main .main .lg-right .in-2 {
+  position: relative;
+}
+main .main .lg-right .in-2 input {
+  height: 37px;
+  width: 310px;
+  box-sizing: border-box;
+  border: 1px solid #CFCFCF;
+  padding-left: 36px;
+}
+main .main .lg-right .in-2 span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: block;
+  width: 21px;
+  height: 20px;
+  background: url(../img/reg/zc-ico.png) no-repeat 0 -116px;
+}
+main .main .lg-right .in-3 {
+  height: 65px;
+  line-height: 65px;
+}
+main .main .lg-right .in-3 label {
+  font-size: 14px;
+  color: #474747;
+}
+main .main .lg-right .in-3 label input {
+  margin-right: 8px;
+}
+main .main .lg-right .in-3 a {
+  font-size: 14px;
+  color: #676767;
+}
+main .main .lg-right .in-3 a:hover {
+  color: #ca0606;
+  text-decoration: underline;
+}
+main .main .lg-right .in-4 {
+  height: 71px;
+}
+main .main .lg-right .in-4 input {
+  width: 310px;
+  height: 42px;
+  background: #C40000;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+main .main .lg-right .in-4 input:hover {
+  background: #d40202;
+}
+main .main .lg-right .p3 {
+  height: 22px;
+  font-size: 12px;
+  color: #888888;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EFEFEF;
+}
+main .main .lg-right .p4 {
+  padding-top: 14px;
+  height: 58px;
+}
+main .main .lg-right .p4 a:nth-of-type(1) {
+  background: url(../img/reg/zc-ico.png) no-repeat 0 0;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #676767;
+  padding-right: 23px;
+  border-right: 1px solid #ccc;
+}
+main .main .lg-right .p4 a:nth-of-type(1):hover {
+  color: #a50101;
+  text-decoration: underline;
+}
+main .main .lg-right .p4 a:nth-of-type(2) {
+  background: url(../img/reg/zc-ico.png) no-repeat 0 -23px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #676767;
+  padding-right: 23px;
+  margin-left: 5px;
+  border-right: 1px solid #ccc;
+}
+main .main .lg-right .p4 a:nth-of-type(2):hover {
+  color: #a50101;
+  text-decoration: underline;
+}
+main .main .lg-right .p4 a:nth-of-type(3) {
+  display: inline-block;
+  width: 121px;
+  height: 19px;
+  background: url(../img/reg/zc-ico.png) no-repeat 0 -46px;
+}
+main .main .lg-right .p4 a:nth-of-type(4) {
+  background: url(../img/reg/tp.png) no-repeat;
+  padding-left: 38px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #676767;
+  padding-right: 23px;
+  margin-left: 5px;
+  border-right: 1px solid #ccc;
+}
+main .main .lg-right .p4 a:nth-of-type(4):hover {
+  color: #a50101;
+  text-decoration: underline;
+}
+
+footer .dibu {
+  text-align: center;
+  padding: 65px 50px 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  position: relative;
+}
+footer .dibu a {
+  color: #676767;
+  line-height: 22px;
+  margin: 0 2px;
+}
+footer .dibu a:hover {
+  color: #b60101;
+  text-decoration: underline;
+}
+footer p {
+  font-size: 12px;
+  color: #474747;
+  text-align: center;
+  line-height: 22px;
+}
+
+/*# sourceMappingURL=login.css.map */

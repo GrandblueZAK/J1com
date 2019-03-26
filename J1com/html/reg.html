@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reg</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/base_pc.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../js/reg.js"></script>
+</head>
+
+<body>
+    <!--  -->
+    <header>
+        <section class="hed gong">
+            <h2 class="fl"><a href="../index.html">健一网</a></h2>
+            <h3 class="fl">
+                会员注册
+            </h3>
+            <p class="fl">
+                注册成功即可获得
+                <span>100</span>
+                积分+
+                <span>会员特权</span></p>
+
+        </section>
+    </header>
+    <!--  -->
+    <main>
+        <section class="reg-main gong">
+            <div class="r-left fl">
+                <form action="###">
+                    <!--  -->
+                    <dl>
+                        <dt>
+                            <span>*</span>
+                            手机号
+                        </dt>
+                        <dd>
+                            <input type="text" placeholder="请输入手机号" id="mobile" value="">
+                            <!-- 错误框 -->
+                            <div class="tishi" id="t1">
+                                <i></i>
+                                <span>手机号不能为空！</span>
+                            </div>
+                            <!-- 正确提示框 -->
+                            <div class="sure" id="s1"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <span>*</span>
+                            设置密码
+                        </dt>
+                        <dd>
+                            <input type="password" placeholder="6-20个大小写英文字母，符号或数字" id="psw">
+                            <label>安全程度：<span id="mmqd"></span></label>
+                            <!-- 错误框 -->
+                            <div class="tishi" id="t2">
+                                <i></i>
+                                <span> 密码不能为空！</span>
+                            </div>
+                            <!-- 正确提示框 -->
+                            <div class="sure" id="s2"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <span>*</span>
+                            确认密码
+                        </dt>
+                        <dd>
+                            <input type="password" placeholder="再次输入密码" id="p-again">
+                            <!-- 错误框 -->
+                            <div class="tishi" id="t3">
+                                <i></i>
+                                <span> 密码不能为空！</span>
+                            </div>
+                            <!-- 正确提示框 -->
+                            <div class="sure" id="s3"></div>
+                        </dd>
+                    </dl>
+                    <!--  -->
+                    <dl>
+                        <dt>
+                            <span>*</span>
+                            验证码
+                        </dt>
+                        <dd>
+                            <input type="text" id="yzm">
+                            <input type="button" value="sdgsd" id="shuiji">
+                            <a href="###" id="queren">确认验证码</a>
+                        </dd>
+                    </dl>
+                    <div class="yhxy">
+                        <input type="checkbox" id="xy" checked = "checked">
+                        <label for="">
+                            我已阅读并同意
+                            <a href="###">
+                                《用户协议》
+                            </a>
+                        </label>
+                    </div>
+                    <div class="ljzc">
+                        <input type="button" value="立即注册" id="boss">
+                    </div>
+                </form>
+
+            </div>
+            <div class="r-right">
+                <h4>已有健一账号？</h4>
+                <a href="###" class="btn-ksdl">快速登陆</a>
+                <h3>使用合作账号登录健一网</h3>
+                <ul>
+                    <li><a href="###">支付宝</a></li>
+                    <li><a href="###">QQ</a></li>
+                    <li><a href="###">平安健康商圈 健康卡</a></li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+    <!--  -->
+    <footer>
+        <div class="dibu gong">
+            <a href="###">互联网药品交易服务资格证书</a>
+            <a href="###">药品经营许可证</a>
+            <a href="###">互联网药品信息服务资格证书</a>
+            <a href="###">食品流通许可证</a>
+            <a href="###">医疗器械经营企业许可证</a>
+            <a href="###">药品经营质量管理规范认证证书（新）</a>
+            <a href="###">互联网医疗保健信息服务审核同意书</a>
+            <a href="###">信用资质等级评定</a>
+            <a href="###">企业法人营业执照</a>
+            <a href="###">税务登记证</a>
+        </div>
+        <p>Copyright © j1.com All rights reserved 沪ICP备09007253号
+            上海健一网大药房连锁经营有限公司
+        </p>
+    </footer>
+</body>
+
+</html>

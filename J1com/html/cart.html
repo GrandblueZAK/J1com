@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/cart.js"></script>
+    <link rel="stylesheet" href="../css/base_pc.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <!-- top -->
+    <section id="top">
+        <div class="top gong">
+            <li class="fl">您好， 欢迎来到健一网网上药店！ [ <a href="###" id="denlu">登陆</a> ] [ <a href="##" id="zhuc">注册</a> ]
+                <i></i><i></i></li>
+            <h2 class="fr"><a href="###">
+                    我的订单
+                </a>全国热线<span>4007-800-800</span></h2>
+        </div>
+    </section>
+    <!-- header -->
+    <header>
+        <section class="header gong">
+            <h2 class="fl">
+                <a href="../index.html">
+                    健一
+                </a>
+            </h2>
+            <div class="header-right fr">
+                <span>1.我的购物车</span> >
+                <span>2.填写核对订单信息</span> >
+                <span>3.成功提交订单/付款</span>
+            </div>
+        </section>
+    </header>
+    <h2 class="mycart gong">我的购物车</h2>
+    <div class="hint gong">
+        <h2 class="fl">健一网上药店
+            <i></i>
+        </h2>
+        <p class="fr">
+            温馨提示：满89元免运费/满150元货到付款免运费
+        </p>
+    </div>
+    <section id="m-1">
+        <section class="m-1 gong">
+            <div class="t-head">
+                <li>商品名称</li>
+                <li>货 号</li>
+                <li>商品规格</li>
+                <li>生产厂家</li>
+                <li>健一价</li>
+                <li>数 量</li>
+                <li>商品合计</li>
+                <li>操 作</li>
+            </div>
+            <!--  -->
+            <div class="t-bod clearfix">
+                <!-- <div class="t-td">您还没有商品</div> -->
+                <!-- 生成 -->
+                <!-- <div class="t-th" data-id="">
+                    <h2>
+                        <span>包裹1</span>
+                    </h2>
+                    <div class="t-box">
+                        <ul class="clearfix">
+                            <li>
+                                <input type="checkbox" class="ck">
+                            </li>
+                            <li>
+                                <img src="../img/list/k1.jpg" alt="">
+                            </li>
+                            <li>1健力多 氨糖软骨素钙片 1.02g/片*50片 3瓶组</li>
+                            <li>06-05057</li>
+                            <li>MF-TN1501</li>
+                            <li>汤臣倍健股份有限公司</li>
+                            <li>98.00</li>
+                            <li>
+                                <a href="###" class="jian">-</a>
+                                <input type="text" value="1" class="nownum">
+                                <a href="###" class="jia">+</a>
+                            </li>
+                            <li class="good_total">98.00</li>
+                            <li><a href="###" class="del">删除</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <!-- <div class="t-th">
+                    <h2>
+                        <span>包裹1</span>
+                    </h2>
+                    <div class="t-box">
+                        <ul class="clearfix">
+                            <li>
+                                <input type="checkbox" class="ck">
+                            </li>
+                            <li>
+                                <img src="../img/list/k1.jpg" alt="">
+                            </li>
+                            <li>健力多 氨糖软骨素钙片 1.02g/片*50片 3瓶组</li>
+                            <li>06-05057</li>
+                            <li>MF-TN1501</li>
+                            <li>汤臣倍健股份有限公司</li>
+                            <li>98.00</li>
+                            <li>
+                                <a href="###" class="jian">-</a>
+                                <input type="text" value="1" class="nownum">
+                                <a href="###" class="jia">+</a>
+                            </li>
+                            <li class="good_total">98.00</li>
+                            <li><a href="###" class="del">删除</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="t-agg">
+                <!-- <li>
+                    产品数量总计：<span class="spsl">${spsl()}</span>
+                        </li>
+                        <li><i>税费：</i><span>￥0.00</span> </li>
+                        <li><i>运费：</i> (以结算时为准) </li>
+                        <li><i>总计: </i><span id="zj1">￥ 00.00 </span></li>
+                        <li><i>优惠后金额：</i><span id="zj2"> 00.00 元</span></li> -->
+            </div>
+        </section>
+
+    </section>
+    <div class="sel clearfix gong">
+        <p class="fl">
+            <label for="quanx"><input type="checkbox" id="quanx">全选</label>
+            <a href="" id="batch">批量删除</a>
+            <a href="###">
+                <<继续购物 </a> </p> <h2 class="fr">已选择 <span id="yixuan">1</span> 件商品 &nbsp;总价（不包含运费）：<span
+                        id="zj3">￥00.00</span>
+                    <input type="button" value="去结算">
+                    </h2>
+
+    </div>
+
+    <footer>
+        <div class="dibu gong">
+            <a href="###">互联网药品交易服务资格证书</a>
+            <a href="###">药品经营许可证</a>
+            <a href="###">互联网药品信息服务资格证书</a>
+            <a href="###">食品流通许可证</a>
+            <a href="###">医疗器械经营企业许可证</a>
+            <a href="###">药品经营质量管理规范认证证书（新）</a>
+            <a href="###">互联网医疗保健信息服务审核同意书</a>
+            <a href="###">信用资质等级评定</a>
+            <a href="###">企业法人营业执照</a>
+            <a href="###">税务登记证</a>
+        </div>
+        <p>Copyright © j1.com All rights reserved 沪ICP备09007253号
+            上海健一网大药房连锁经营有限公司
+        </p>
+    </footer>
+</body>
+
+</html>
